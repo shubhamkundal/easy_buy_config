@@ -6,12 +6,12 @@ management:
   endpoints:
     web:
       exposure:
-        include:"*"
+        include: "*"
   health:
     probe:
-      enabled:true
+      enabled: true
     config:
-      enabled:true
+      enabled: true
 
-PRODUCT_SERVICE_ID:"lb://PRODUCTS-SERVICE"
-CARTORDER_SERVICE_ID:"lb://CART-ORDER-SERVICE"
+PRODUCT_SERVICE_ID: "lb://PRODUCTS-SERVICE"
+CARTORDER_SERVICE_ID: "lb://CART-ORDER-SERVICE"

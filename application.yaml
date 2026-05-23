@@ -15,5 +15,5 @@ management:
     config:
       enabled: true
 
-PRODUCT_SERVICE_ID: "lb://PRODUCTS-SERVICE"
+PRODUCT_SERVICE_ID: "lb://PRODUCT-SERVICE"
 CARTORDER_SERVICE_ID: "lb://CART-ORDER-SERVICE"

@@ -9,6 +9,10 @@ management:
     web:
       exposure:
         include: "*"
+  endpoint:
+    # Explicitly verify the busrefresh component is active
+    busrefresh:
+      enabled: true
   health:
     probe:
       enabled: true
